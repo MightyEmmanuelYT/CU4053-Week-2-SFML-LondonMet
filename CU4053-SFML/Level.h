@@ -18,4 +18,14 @@ private:
 	void beginDraw();
 	void endDraw();
 	sf::RenderWindow* window;
+
+	sf::RectangleShape rect;
+	sf::CircleShape circle;
+	sf::RectangleShape rect2;
+	sf::RectangleShape rect3;
+
+	sf::Font font;
+	sf::Text text;
+
+	sf::RectangleShape rect4;
 };
